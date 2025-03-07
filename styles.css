@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1E3A8A, #7C3AED);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Enter Code Section */
+h1 {
+    font-size: 24px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.code-input {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #D1D5DB;
+    border-radius: 8px;
+    font-size: 18px;
+    background: #F3F4F6;
+    color: #000;
+    text-align: center;
+}
+
+.code-input:focus {
+    border-color: #84CC16;
+    background: #84CC16;
+    color: #FFFFFF;
+    outline: none;
+}
+
+button {
+    background: #06B6D4;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0891B2;
+}
+
+.error-message {
+    color: #F87171;
+    margin-top: 10px;
+}
+
+/* Success Screen */
+.balance-box {
+    background: linear-gradient(to right, #FBBF24, #F97316);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.balance-box p {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.balance-box span {
+    font-size: 24px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.icon-item {
+    background: #2DD4BF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.icon-item:hover {
+    background: #0F766E;
+}
+
+.icon-item i {
+    font-size: 24px;
+}
+
+.icon-item span {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Utility */
+.hidden {
+    display: none;
+}
